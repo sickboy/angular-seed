@@ -1,23 +1,7 @@
-/* app css stylesheet */
+@import '../../lib/bourbon/bourbon'
+@import '_partials/vars'
+@import '_partials/mixins'
+@import '_partials/globals'
 
-.menu
-  list-style: none
-  border-bottom: 0.1em solid black
-  margin-bottom: 2em
-  padding: 0 0 0 0.5em
-
-  &:before
-    content: "["
-
-  &:after
-    content: "]"
-
-  > li
-    display: inline
-    
-    &:before
-      content: "|"
-
-    &:nth-child(1):before
-      content: ""
-      padding: 0
+body
+  padding-top: 40px
