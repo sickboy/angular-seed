@@ -3,4 +3,7 @@
 .cf:before, .cf:after, .clearfix:before, .clearfix:after { content: ""; display: table; }
 .cf:after, .clearfix:after { clear: both; }
 
-body { padding-top: 40px; }
+body { padding-top: 50px; }
+
+.navbar .brand { font-size: 2em; }
+.navbar input[type="text"] { height: 30px; line-height: 30px; margin-top: 8px; }
