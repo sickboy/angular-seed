@@ -5,5 +5,4 @@
 
 body { padding-top: 50px; }
 
-.navbar .brand { font-size: 2em; }
-.navbar input[type="text"] { height: 30px; line-height: 30px; margin-top: 8px; }
+.navbar input[type="text"] { height: 25px; line-height: 25px; margin-top: 7px; }

@@ -1,8 +1,10 @@
 // Globals will go here
 
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
 *
   @include box-sizing(border-box)
 
+// http://nicolasgallagher.com/micro-clearfix-hack/
 .cf, .clearfix
   &:before, &:after
     content: ""
@@ -10,13 +12,12 @@
   &:after
     clear: both
 
+// To compensate for fixed nav toolbar.
 body
   padding-top: 50px
 
 .navbar
-  .brand
-    font-size: 2em
   input[type="text"]
-    height: 30px
-    line-height: 30px
-    margin-top: 8px
+    height: 25px
+    line-height: 25px
+    margin-top: 7px
