@@ -1,8 +1,23 @@
-* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-
-.cf:before, .cf:after, .clearfix:before, .clearfix:after { content: ""; display: table; }
-.cf:after, .clearfix:after { clear: both; }
-
-body { padding-top: 50px; }
-
-.navbar input[type="text"] { height: 25px; line-height: 25px; margin-top: 7px; }
+/* app css stylesheet */
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid #000;
+  margin-bottom: 2em;
+  padding: 0 0 0 0.5em;
+}
+.menu:before {
+  content: "[";
+}
+.menu:after {
+  content: "]";
+}
+.menu > li {
+  display: inline;
+}
+.menu > li:before {
+  content: "|";
+}
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
